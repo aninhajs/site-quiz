@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Um quiz interativo para testar seus conhecimentos">
+    <link rel="stylesheet" href="quiz.css">
     <title>Document</title>
 </head>
 <body>
@@ -28,7 +29,7 @@
           <!--teg form de formulário, dar opções de escolhas-->
           <form >
             <input type="radio" value="python" id="p1a" name="pergunta1">
-            <!--para esvrever usa a teg label-->
+            <!--para escrever usa a teg label-->
             <label for="p1a">python</label>
           </form>
           <form >
@@ -188,8 +189,9 @@
         </section>
     </main>
     <footer>
-        <p>&copy Quiz de programação. Todos os direitos reservados.</p>
-        <p>Para conhecer outros quizzes <a href="https://google.com" target="_blank">clique aqui</a></p>
+        <!--utizando classes para separar estilização-->
+        <p class="paragrafo-footer">&copy Quiz de programação. Todos os direitos reservados.</p>
+        <p class="paragrafo-footer">Para conhecer outros quizzes <a href="https://google.com" target="_blank">clique aqui</a></p>
         <!--target_blank abre um novo guia sem sair da minha página-->
         
     </footer>
